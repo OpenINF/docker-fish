@@ -16,11 +16,11 @@
     "test": "nps test"
   },
   "devDependencies": {
-    "@babel/core": "7.24.4",
-    "@babel/eslint-parser": "7.24.1",
-    "@babel/plugin-syntax-jsx": "7.24.1",
+    "@babel/core": "7.26.0",
+    "@babel/eslint-parser": "7.26.5",
+    "@babel/plugin-syntax-jsx": "7.25.9",
     "@babel/plugin-syntax-top-level-await": "7.14.5",
-    "@babel/preset-env": "7.24.4",
+    "@babel/preset-env": "7.26.0",
     "@openinf/util-text": "1.1.2",
     "dictionary-en": "4.0.0",
     "eslint": "9.0.0",
