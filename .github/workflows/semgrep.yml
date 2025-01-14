@@ -16,7 +16,7 @@ jobs:
     env:
       SEMGREP_APP_TOKEN: ${{ secrets.SEMGREP_APP_TOKEN }}
     container:
-      image: returntocorp/semgrep@sha256:bacb1190716dab2b1708dc63c5bf11f6014c16511e5117f83592acbc5530087a # latest
+      image: returntocorp/semgrep@sha256:cef085245254d15c66d96be413c730f0b458823a1d0c39afbc12f705b664ce8f # latest
     steps:
     - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
     - run: semgrep ci
